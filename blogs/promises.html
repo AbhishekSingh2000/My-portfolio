@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promises in JavaScript</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <nav class="navigation container">
+        <span class="nav-brand" style="position: relative; top:40px; font-size:1.3rem"> <em>Abhishek Kumar Singh - Neo Programmer at NeoG Camp(level 0) </em></span>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/"><img class="icons" src="/images/home.png" alt="">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html"><img class="icons" src="/images/projects.png" alt="">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="/blogs.html"><img class="icons" src="/images/blogs.png" alt="">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+
+    <article class="showcase-list container container-center ">
+        <h1>Promises in JavaScript</h1>
+    <small>4th August, 2021</small>
+    <img class="showcase-list container container-center" src="/images/PromisesJs.png" />
+    <p>Imagine that you are interviewing job seekers for a job position. A candidate comes in for the interview but guess what? He forgot his resume. 
+        He calls his roommate over the phone and asks him to help find his resume. He also pleads with his roommate to PROMISE to text him asap with the FINAL STATUS of his finding. If the resume is found, he’ll text back, “Hey, I have Successful, found your resume!”. However, if the resume is not found, he’ll text back a failure message with the reason why it wasn’t found. For eg: “Sorry, couldn’t find your resume because your dog ate it”.</p>
+        <br>
+        <p>In the meantime, the interview continues as planned, with the status of the resume set as PENDING. He answers you, every question you ask him. But ultimately, his employment still depends on the STATUS of his resume. Soon, his roommate texts back. If the resume wasn’t found, he will inform you about the failure along with the reason why it wasn’t found. When that happens, you will end his interview with a REJECTION. On the other hand, if the resume was found, he will happily tell you it was successful, and you will go ahead to FULFILL his hopes of getting a job.</p>
+        <br>
+        <p>Now, comparing the situation with JavaScript, Your roommate promising to find your resume and texting you back is like defining a promise in your JavaScript code.  A promise in JavaScript is asynchronous(which means the code doesn't wait for the promise to fulfill but execute the code further and once the promise gets completed with any status it calls back a function which can either be a function based on success state of promise or it's failure state). The success state in the situation is when his friend calls him and informs the candidate about the resume being found by him and and the interview continues. This is Handled by the Promise handlers in javascript mainly as callback Functions, these functions are known as fulfillment functions. </p>
+        <br>
+        <p>Now, assume that his friend doesn't find the resume and informs the candidate about the status and reason of the same, in that situation his Interview will be stopped immediately and his rejection is sure now, ultimately his selection is based on his submission of his resume then this is a failure state of a Promise and in this situation promise handlers calls a function which handles the rejections called as rejection functions.</p>
+    </article>
+
+    <footer class="footer">
+        <div class="footer-header">Social Media</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/AbhishekSingh2000"><img class="icons" src="/images/github.png" alt="">
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/ABHISHEKIISM"><img class="icons" src="/images/twitter.png" alt="">
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/abhishek-kumar-singh-ba4431218/"> <img class="icons" src="/images/linkedin.png" alt="">
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://instagram.com/_abhishekiism_?utm_medium=copy_link"> <img class="icons" src="/images/instagram.png" alt="">
+                </a>
+            </li>
+            
+        </ul>
+    </footer>      
+</body>
+</html>
